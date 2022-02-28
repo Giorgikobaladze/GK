@@ -1,0 +1,207 @@
+body{
+    font-family: "Monaco", monospace;
+}
+
+header1 {
+  font-size: 220%;
+  position: absolute;
+  top: 7%;
+  left: 3%;
+}
+.button{
+  font-size: 9px;
+  padding: 12px 32px;
+  text-align: right;
+  margin: 5px 2px;
+  cursor: pointer;
+}
+.button1 {
+  display: inline-block;
+  top:6.1%;
+  right:17%;
+  z-index: 500;
+  position: absolute;
+  decoration:inherit;
+  font-size: 59%;
+}
+.button2 {
+  display: inline-block;
+  top:6%;
+  right:6%;
+  z-index: 600;
+  position: absolute;
+  decoration:inherit;
+  font-size: 59%;
+}
+.button3 {
+  display: inline-block;
+  top:6.1%;
+  right:17%;
+  z-index: 500;
+  position: absolute;
+  decoration:inherit;
+  font-size: 59%;
+}
+hr.first {
+  width:95%;
+  position: fixed;
+  border: 1.2px solid black;
+  background: black;
+  top:12%;
+  left: 2%;
+}
+p1{
+  position: absolute;
+  top:21%;
+  left:3%;
+  font-size: 150%;
+}
+p2{
+  position: absolute;
+  top:28%;
+  left:3%;
+  font-size: 150%;
+}
+p3{
+  position: absolute;
+  top:35%;
+  left:3%;
+  font-size: 150%;
+}
+#sku {
+  position: fixed;
+  text-decoration:inherit;
+  top:20.9%;
+  left:16%;
+  padding: 0.25% 2.5%;
+  text-align: center;
+  font-family: "Monaco", monospace;
+  font-size: 150%;
+}
+#name {
+  position: fixed;
+  text-decoration:inherit;
+  top:27.9%;
+  left:16%;
+  padding: 0.25% 2.5%;
+  text-align: center;
+  font-family: "Monaco", monospace;
+  font-size: 150%;
+}
+#price{
+  position: fixed;
+  text-decoration:inherit;
+  top:34.9%;
+  left:16%;
+  padding: 0.25% 2.5%;
+  text-align: center;
+  font-family: "Monaco", monospace;
+  font-size: 150%;
+}
+header2 {
+  font-size: 150%;
+  position: absolute;
+  top: 42.6%;
+  left: 3%;
+}
+#productType{
+  text-decoration:inherit;
+  position: fixed;
+  text-align: center;
+  top:42.4%;
+  left:23%;
+  font-family: "Monaco", monospace;
+  font-size: 120%;
+  width:10%;
+  height:5%;
+}
+#size {
+  display: none;
+  position: fixed;
+  top:51%;
+  left:20%;
+  text-align: center;
+  font-family: "Monaco", monospace;
+  font-size: 120%;
+  width:15%;
+  height:5%;
+}
+#weight {
+  display: none;
+  position: fixed;
+  top:51%;
+  left:20%;
+  text-align: center;
+  font-family: "Monaco", monospace;
+  font-size: 120%;
+  width:15%;
+  height:5%;
+}
+#size1{
+  display: none;
+  position: absolute;
+  top:52%;
+  left:3%;
+  font-size: 150%;
+}
+#weight1{
+  display: none;
+  position: absolute;
+  top:52%;
+  left:3%;
+  font-size: 150%;
+}
+#height{
+  display: none;
+  position: fixed;
+  top:51%;
+  left:20%;
+  text-align: center;
+  font-family: "Monaco", monospace;
+  font-size: 120%;
+  width:15%;
+  height:5%;
+}
+#width{
+  display: none;
+  position: fixed;
+  top:58%;
+  left:20%;
+  text-align: center;
+  font-family: "Monaco", monospace;
+  font-size: 120%;
+  width:15%;
+  height:5%;
+}
+#length{
+  display: none;
+  position: fixed;
+  top:65%;
+  left:20%;
+  text-align: center;
+  font-family: "Monaco", monospace;
+  font-size: 120%;
+  width:15%;
+  height:5%;
+}
+#height1{
+  display: none;
+  position: absolute;
+  top:52%;
+  left:3%;
+  font-size: 150%;
+}
+#width1{
+  display: none;
+  position: absolute;
+  top:59%;
+  left:3%;
+  font-size: 150%;
+}
+#length1{
+  display: none;
+  position: absolute;
+  top:66%;
+  left:3%;
+  font-size: 150%;
+}

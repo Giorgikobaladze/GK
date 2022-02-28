@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<?php
+  include_once 'includes/Data.sql';
+?>
+<link rel="stylesheet" href="Website.css" />
+<script src="Website.js"></script>
+<html>
+<body>
+
+  <header1>Product Add</header1>
+  <a href="Website.html">
+      <button class="button button3">Save</button> </a>
+  <hr class="first">
+<p1> SKU </p1>
+<input id="sku" type="text" />
+<p2> Name </p2>
+<input id="name" type="text" />
+<p3> Price ($) </p3>
+<input id="price" type="text" />
+
+<header2> Type Switcher </header2>
+<select id="productType" onchange="change()">
+  <option value="choose">Choose</option>
+  <option value="dvd">DVD</option>
+  <option value="book">Book</option>
+  <option value="furniture">Furniture</option>
+</select>
+  <input id="size" type="number">
+  <p5 id = "size1"> Size (MB) </p5>
+  <input id="weight" type="number" />
+  <p5 id = "weight1"> Weight (kg) </p5>
+  <input id="height" type="number">
+  <input id="width" type="number">
+  <input id="length" type="number">
+  <p5 id = "height1"> Height </p5>
+  <p5 id = "width1"> Width </p5>
+  <p5 id = "length1"> Length </p5>
